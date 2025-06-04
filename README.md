@@ -17,3 +17,15 @@ Extubation failure remains a significant challenge in critical care, particularl
 ## Project Goal
 
 This project aims to develop an explainable ML-based model to predict the success of COT in high-risk patients, using patient data from the MIMIC-IV database.
+
+## Repository Structure
+
+high-risk-COT/
+│
+├── data/                       # Features used for analysis
+│   ├──
+│   └──
+├── code/                  # codes for model, data analysis, and visualization
+│   ├──
+│   └──
+└── README.md                   # This file
