@@ -1,4 +1,4 @@
-# high-risk-COT
+# Explainable Machine Learning for Predicting Successful COT in Post-Extubation Patients
 
 ## Table of Contents
 
