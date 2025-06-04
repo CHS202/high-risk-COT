@@ -20,12 +20,10 @@ This project aims to develop an explainable ML-based model to predict the succes
 
 ## Repository Structure
 
-high-risk-COT/
-│
-├── data/                       # Features used for analysis
-│   ├──
-│   └──
-├── code/                  # codes for model, data analysis, and visualization
-│   ├──
-│   └──
-└── README.md                   # This file
+- high-risk-COT/·  
+  │·  
+  ├── data/·#·Features·used·for·analysis··
+  │·├──·│·└──··
+  ├── code/·#·codes·for·model,·data·analysis,·and·visualization··
+  │·├──·│·└──··
+  └── README.md·#·This·file
