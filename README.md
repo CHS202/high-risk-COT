@@ -26,6 +26,6 @@ high-risk-COT/
 │   ├──  
 │   └──  
 ├── code/       # codes for model, data analysis, and visualization  
-│   ├──  
-│   └──  
+│
+├── sql/       # sql queries for feature extraction and cofort selection  
 └── README.md   # This file  
