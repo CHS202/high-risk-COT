@@ -1,0 +1,27 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from imblearn.ensemble import RUSBoostClassifier  # 使用內建弱學習器
+
+df = pd.read_csv("features_multivariate.csv")
+
+X = df.drop(columns=["outcome"])
+y = df["outcome"]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+#  建立 RUSBoost 模型（不帶 base_estimator）
+model = RUSBoostClassifier(
+    n_estimators=100,
+    random_state=42
+)
+model.fit(X_train, y_train)
+
+y_pred_proba = model.predict_proba(X_test)[:, 1]
+
+
+pd.DataFrame(y_test).to_csv("y_test_rusboost2.csv", index=False, header=False)
+pd.DataFrame(y_pred_proba).to_csv("y_pred_proba_rusboost2.csv", index=False, header=False)
+
+print(" RUSBoost 完成訓練並輸出檔案。")
