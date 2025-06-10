@@ -20,5 +20,5 @@ high-risk-COT/
 ├── data/       # Features used for analysis  
 ├── code/       # Codes for model, data analysis, and visualization  
 ├── sql/       # SQL queries for feature extraction and cofort selection  
-├── Group4_final.pdf # Report of this project
+├── Group4_final.pdf # Report of this project  
 └── README.md   # This file  
