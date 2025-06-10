@@ -17,7 +17,6 @@ This project aims to develop an explainable ML-based model to predict the succes
 ## Repository Structure
 
 high-risk-COT/  
-│   
 ├── data/       # Features used for analysis  
 ├── code/       # codes for model, data analysis, and visualization  
 ├── sql/       # sql queries for feature extraction and cofort selection   
