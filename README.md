@@ -18,6 +18,7 @@ This project aims to develop an explainable ML-based model to predict the succes
 
 high-risk-COT/  
 ├── data/       # Features used for analysis  
-├── code/       # codes for model, data analysis, and visualization  
-├── sql/       # sql queries for feature extraction and cofort selection   
+├── code/       # Codes for model, data analysis, and visualization  
+├── sql/       # Sql queries for feature extraction and cofort selection  
+├── Group4_final.pdf # Report of this project
 └── README.md   # This file  
