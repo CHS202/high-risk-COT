@@ -5,10 +5,6 @@
 - [Introduction](#introduction)
 - [Project Goal](#project-goal)
 - [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
 
 ## Introduction
 
@@ -23,9 +19,6 @@ This project aims to develop an explainable ML-based model to predict the succes
 high-risk-COT/  
 │   
 ├── data/       # Features used for analysis  
-│   ├──  
-│   └──  
 ├── code/       # codes for model, data analysis, and visualization  
-│  
 ├── sql/       # sql queries for feature extraction and cofort selection   
 └── README.md   # This file  
